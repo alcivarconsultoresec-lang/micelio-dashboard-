@@ -1,0 +1,50 @@
+[
+  {
+    "time": "2026-03-18T01:39:48.370653Z",
+    "module": "colonizador_github",
+    "event": "ERROR_CREAR_REPO",
+    "data": {
+      "status": 403,
+      "respuesta": "{\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user\",\"status\":\"403\"}"
+    }
+  },
+  {
+    "time": "2026-03-18T01:39:55.051652Z",
+    "module": "colonizador_github",
+    "event": "ERROR_CREAR_REPO",
+    "data": {
+      "status": 403,
+      "respuesta": "{\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user\",\"status\":\"403\"}"
+    }
+  },
+  {
+    "time": "2026-03-18T02:05:19.031987Z",
+    "module": "colonizador_github",
+    "event": "ERROR_CREAR_REPO",
+    "data": {
+      "status": 403,
+      "respuesta": "{\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user\",\"status\":\"403\"}"
+    }
+  },
+  {
+    "time": "2026-03-18T02:47:34.242453Z",
+    "module": "colonizador_github",
+    "event": "REPO_CREADO",
+    "data": {
+      "repo": "micelio-colonia-001",
+      "url": "https://github.com/alcivarconsultoresec-lang/micelio-colonia-001.git"
+    }
+  },
+  {
+    "time": "2026-03-18T02:47:39.686597Z",
+    "module": "colonizador_github",
+    "event": "COLONIA_CREADA",
+    "data": {
+      "repo": "micelio-colonia-001",
+      "url": "https://github.com/alcivarconsultoresec-lang/micelio-colonia-001.git",
+      "estado": "activo",
+      "fecha_creacion": "2026-03-18T02:47:39.683610Z",
+      "genoma_origen": "genoma_prueba.json"
+    }
+  }
+]
