@@ -1,0 +1,17 @@
+﻿{
+    "IsFixedSize":  false,
+    "Count":  2,
+    "IsSynchronized":  false,
+    "IsReadOnly":  false,
+    "Keys":  [
+                 "valor",
+                 "test"
+             ],
+    "Values":  [
+                   123,
+                   "simple"
+               ],
+    "SyncRoot":  {
+
+                 }
+}
