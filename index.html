@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Ojo del Micelio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍄 El Ojo del Micelio</h1>
+            <p class="subtitle">Monitor del ecosistema evolutivo MICELIO</p>
+        </header>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <h3>Censo Total</h3>
+                <div class="metric-value" id="censo-total">0</div>
+            </div>
+            <div class="metric-card">
+                <h3>Colonias GitHub</h3>
+                <div class="metric-value" id="colonias-github">0</div>
+            </div>
+            <div class="metric-card">
+                <h3>Tareas Completadas</h3>
+                <div class="metric-value" id="tareas-completadas">0</div>
+            </div>
+            <div class="metric-card">
+                <h3>Créditos Totales</h3>
+                <div class="metric-value" id="creditos-totales">0</div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <div class="chart-container">
+                <h3>Salud Genética (Fitness)</h3>
+                <canvas id="chart-fitness"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Diversidad de Especialidades</h3>
+                <canvas id="chart-especialidades"></canvas>
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <div class="economia">
+                <h3>📊 Economía</h3>
+                <div class="economia-grid">
+                    <div><strong>Especies descubiertas:</strong> <span id="especies-descubiertas">0</span></div>
+                    <div><strong>Colonias activas:</strong> <span id="colonias-activas">0</span></div>
+                    <div><strong>Última actualización:</strong> <span id="ultima-actualizacion"></span></div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-creditos" style="width:0%"></div>
+                </div>
+            </div>
+            <div class="logs">
+                <h3>📜 Logs en vivo</h3>
+                <div class="log-ticker" id="log-ticker">
+                    <span>Cargando logs...</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>🖥️ CPU: <span id="cpu">0%</span> | RAM: <span id="ram">0%</span> | Última actualización: <span id="timestamp"></span></p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
